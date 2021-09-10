@@ -33,6 +33,6 @@ import {
     }
   };
 
-  export function userProductReducer(initialState) {
+  export function useProductReducer(initialState) {
     return useReducer(reducer, initialState);
   };
